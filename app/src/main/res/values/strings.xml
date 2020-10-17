@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">T. Sem. 2 - Darío Finelli </string>
+    <string name="nombre">Nombre:  </string>
+    <string name="fecha">Fecha de nacimiento: </string>
+    <string name="telefono">Tel: </string>
+    <string name="email">Email: </string>
+    <string name="descripcion">Descripción: </string>
+    <string name="boton_sig">Siguiente</string>
+    <string name="ingresarFecha">Fecha Nacimiento</string>
+    <string name="confirmaFecha">Confirmar Fecha</string>
+    <string name="confirmarDatos">Confirmar Datos</string>
+    <string name="editarNombre">Darío Finelli</string>
+    <string name="editarFecha">29/12/1974</string>
+    <string name="editarTelefono">099 951570</string>
+    <string name="editarEmail">dariofinelli@gmail.com</string>
+    <string name="editarDescripcion">Murga es el imán fraterno que al pueblo atraído hechiza.</string>
+    <string name="editarDatos">Editar datos</string>
+    <string name="fecha_nac">"Fecha de nacimiento: "</string>
+</resources>

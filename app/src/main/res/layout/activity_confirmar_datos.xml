@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/paddingX"
+        android:paddingRight="@dimen/paddingX">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/secondaryText"
+            android:paddingLeft="@dimen/paddingX"
+            android:paddingRight="@dimen/paddingX"
+            android:text="@string/editarDatos"
+            android:textColor="@color/blanco"
+            android:textSize="24sp">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textoNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:paddingLeft="@dimen/paddingX"
+                android:text="@string/nombre"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/txt_medio"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+            <TextView
+                android:id="@+id/editarNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:paddingLeft="@dimen/paddingx"
+                android:textColor="@color/primaryText"
+                android:text="@string/editarNombre"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/editarFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:paddingStart="@dimen/paddingX"
+                android:text="@string/editarFecha"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/txt_medio"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textoTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:paddingLeft="@dimen/paddingX"
+                android:text="@string/telefono"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/txt_medio"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+            <TextView
+                android:id="@+id/editarTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:paddingLeft="@dimen/paddingx"
+                android:text="@string/editarTelefono"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textoEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:paddingLeft="@dimen/paddingX"
+                android:text="@string/email"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/txt_medio"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+            <TextView
+                android:id="@+id/editarEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:paddingLeft="@dimen/paddingx"
+                android:text="@string/editarEmail"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textoDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:paddingStart="@dimen/paddingX"
+                android:text="@string/descripcion"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/txt_medio"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+            <TextView
+                android:id="@+id/editarDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop15"
+                android:text="@string/editarDescripcion"
+                android:textAlignment="textStart"
+                android:paddingLeft="@dimen/paddingx"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-16dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/atras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/marginTop15"
+            android:text="@string/editarDatos"
+            android:theme="@style/MiRaisedButton"
+            ></Button>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
