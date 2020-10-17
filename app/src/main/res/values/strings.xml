@@ -15,5 +15,6 @@
     <string name="editarEmail">dariofinelli@gmail.com</string>
     <string name="editarDescripcion">Murga es el imán fraterno que al pueblo atraído hechiza.</string>
     <string name="editarDatos">Editar datos</string>
+    <string name="tituloContacto">Contacto</string>
     <string name="fecha_nac">"Fecha de nacimiento: "</string>
 </resources>
